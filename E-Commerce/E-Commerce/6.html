@@ -1,0 +1,107 @@
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/bootstrap-grid.css">
+ <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+ <link rel="stylesheet" href="css/bootstrap-reboot.css">
+ <link rel="stylesheet" href="css/bootstrap-reboot-min.css">
+ <link rel="stylesheet" href="css/main.css">
+ 
+  
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/mainscript.js"></script>	
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<body>
+<nav class="navbar navbar-inverse navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div class="container-fluid">
+    <div class="nav">
+      <button class="active button2"><a href="index.html">Beranda</a></button>
+      <button class="button2"><a href="belanja.html">Belanja</a></button>
+      <button class="button2"><a href="#">Keranjang</a></button>
+    </div>
+	 <div class="navbar-header">
+      <a style="font-size:45px;" class="navbar-brand navbar-dark" href="index.html">TokoUs</a>
+    </div>
+    <div class="nav navbar-nav navbar-right">
+			<button class="button1"onclick="document.getElementById('id01').style.display='block'" style="width:auto;" style="float:right";>Masuk</button>
+			<button class="button1"onclick="document.getElementById('id02').style.display='block'" style="width:auto;" style="float:right";>Daftar</button>			
+	 </div>
+  </div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="left-sidebar">
+				<h2>Kategori</h2>
+					<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="belanja.html">Kaos</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="belanja.html">Jaket</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="belanja.html">Kemeja</a></h4>
+								</div>
+							</div>
+					</div><!--/category-products-->	
+			</div>
+		</div>
+				<div class="col-sm-9 padding-right">
+					<div class="features_items">
+					<br /><br />
+						<div class="col-sm-6 float-left">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="gambr/jktcwok4.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<h1>Jaket Jas Polos <span class="badge badge-light">Baru</span></h1>
+							<h3>Jaket</h3>
+							<h5>Harga (Rp)</h5>
+							<h3>75000</h3>
+							<div class="form-group">
+							      <label for="sel1">Pilih Ukuran:</label>
+								  <br />
+									<select class="Select1" id="sel1">
+										<option>Pilih Ukuran</option>	
+										<option>S</option>
+										<option>M</option>
+										<option>L</option>
+										<option>XL</option>
+										<option>XXL</option>
+									</select>
+								<input class="number1"type="number" name="quantity" min="1" max="5" /><br /><br /><br />
+								<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan Keranjang</a>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</div>
+<!--Footer-->
+<footer class="page-footer font-small bg-primary">
+
+    <div class="footer-copyright py-3 text-center">
+        <h4>Ini hanya Desain Untuk membuat sebuah Website Saja</h4>	
+    </div>
+    <!--/.Copyright-->
+</footer>
+</body>
+</html>
